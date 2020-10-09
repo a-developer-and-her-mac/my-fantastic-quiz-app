@@ -1,0 +1,45 @@
+[
+  {
+    "label": "Where was coffee first roasted and brewed?",
+    "choices": [
+      { "value": "America", "correct": false },
+      { "value": "Arabia", "correct": true },
+      { "value": "Spain", "correct": false }
+    ]
+  },
+  {
+    "label": "On what plant does coffee grow?",
+    "choices": [
+      { "value": "Coffee Tree", "correct": true },
+      { "value": "Redwood Tree", "correct": false },
+      { "value": "Gooseberry Shrub", "correct": false }
+    ]
+  },
+
+  {
+    "label": "When was the first expresso machine built?",
+    "choices": [
+      { "value": "1884", "correct": true },
+      { "value": "1900", "correct": false },
+      { "value": "1950", "correct": false }
+    ]
+  },
+
+  {
+    "label": "Coffee plants are cultivated in over how many countries?",
+    "choices": [
+      { "value": "70", "correct": true },
+      { "value": "20", "correct": false },
+      { "value": "32", "correct": false }
+    ]
+  },
+
+  {
+    "label": "When was coffee introduced to Brazil?",
+    "choices": [
+      { "value": "1727", "correct": true },
+      { "value": "1600", "correct": false },
+      { "value": "1800", "correct": false }
+    ]
+  }
+]

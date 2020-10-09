@@ -1,0 +1,45 @@
+[
+  {
+    "label": "What is Hello in Norwegian?",
+    "choices": [
+      { "value": "Jente", "correct": false },
+      { "value": "Hallo", "correct": true },
+      { "value": "Gutten", "correct": false }
+    ]
+  },
+  {
+    "label": "What is Bread in Norwegian?",
+    "choices": [
+      { "value": "Brød", "correct": true },
+      { "value": "Vann", "correct": false },
+      { "value": "Pasta", "correct": false }
+    ]
+  },
+
+  {
+    "label": "What is Pepper in Norwegian?",
+    "choices": [
+      { "value": "Pepper", "correct": true },
+      { "value": "Vann", "correct": false },
+      { "value": "Saltet", "correct": false }
+    ]
+  },
+
+  {
+    "label": "What is Duck in Norwegian?",
+    "choices": [
+      { "value": "And", "correct": true },
+      { "value": "Dyret", "correct": false },
+      { "value": "Drikker", "correct": false }
+    ]
+  },
+
+  {
+    "label": "What is Women in Norwegian?",
+    "choices": [
+      { "value": "Kvinnene", "correct": true },
+      { "value": "Dyret", "correct": false },
+      { "value": "Gutter", "correct": false }
+    ]
+  }
+]
