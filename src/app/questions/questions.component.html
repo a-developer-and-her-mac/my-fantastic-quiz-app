@@ -1,6 +1,6 @@
 <div *ngIf="quiz && !questions"></div>
 
-<div class="quiz" ngIf="questions">
+<div class="quiz" *ngIf="questions">
   <div class="questions" *ngIf="!showResults">
     <app-question-form
       [question]="questions[currentQuestionIndex]"
