@@ -1,0 +1,20 @@
+$primary: #cae8d5;
+$secondary: #84a9ac;
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.mat-card-1 {
+  background-color: $secondary;
+}
+
+.mat-card-2 {
+  background-color: $primary;
+  margin: 10px;
+}

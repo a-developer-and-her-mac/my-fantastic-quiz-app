@@ -1,0 +1,15 @@
+$primary: #cae8d5;
+$secondary: #84a9ac;
+$third: #3b6978;
+
+.mat-card-quiz {
+  text-align: center;
+  background-color: $primary;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-next {
+  margin: 10px;
+}

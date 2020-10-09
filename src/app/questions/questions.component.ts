@@ -17,7 +17,7 @@ export class QuestionsComponent implements OnInit {
   questions: Question[];
   currentQuestionIndex: number;
 
-  public showResults = false;
+  private showResults = false;
 
   constructor(
     private route: ActivatedRoute,

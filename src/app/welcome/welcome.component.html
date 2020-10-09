@@ -1,9 +1,16 @@
 <div class="welcome">
+  <mat-card class="mat-card-1">
+    <mat-card-title>Quizzes</mat-card-title>
+  </mat-card>
   <div *ngFor="let q of quiz">
-    <p>{{ q.label }}</p>
-    <p>{{ q.description }}</p>
-    <button>
-      <a routerLink="/{{ q.name }}">Open quiz</a>
-    </button>
+    <mat-card class="mat-card-2">
+      <mat-card-title>{{ q.name }}</mat-card-title>
+      <mat-card-content>{{ q.description }}</mat-card-content>
+      <mat-card-actions>
+        <button>
+          <a routerLink="/{{ q.name }}">Open quiz</a>
+        </button>
+      </mat-card-actions>
+    </mat-card>
   </div>
 </div>
