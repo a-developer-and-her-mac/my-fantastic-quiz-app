@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Norwegian",
+    "name": "norwegian",
+    "description": "Questions about norwegian",
+    "fileName": "norwegian.json"
+  },
+  {
+    "label": "Coffee",
+    "name": "coffee",
+    "description": "Questions about coffee",
+    "fileName": "coffee.json"
+  }
+]
