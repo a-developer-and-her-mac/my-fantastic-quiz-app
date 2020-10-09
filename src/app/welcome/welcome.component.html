@@ -1,0 +1,9 @@
+<div class="welcome">
+  <div *ngFor="let q of quiz">
+    <p>{{ q.label }}</p>
+    <p>{{ q.description }}</p>
+    <button>
+      <a routerLink="`/${:quizId}`"></a>
+    </button>
+  </div>
+</div>
