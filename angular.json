@@ -121,8 +121,13 @@
               "devServerTarget": "my-fantastic-quiz-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "my-fantastic-quiz-app"
 }
